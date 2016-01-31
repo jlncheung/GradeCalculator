@@ -1,0 +1,72 @@
+/*Calculator CSS by Julian Cheung*/
+body {
+	margin-left: 7%;
+	margin-top: 1cm;
+	background-color: #800000;
+}
+
+h2{
+	font-family: sans-serif;
+	font-weight: normal;
+	margin-left: 1cm;
+	padding-top: 2%;
+}
+
+div {
+	background-color: #99e5e5;
+	padding: 5px 5mm 15mm 5mm;
+	margin-right: 30%;
+}
+
+#a{
+	margin-left: 1cm;
+}
+
+table{
+	width:100%;
+	margin-top: 6mm;
+	margin-bottom: 6mm;
+}
+
+table,th,td{
+	border-collapse: collapse;
+	border: 1px solid;
+	font-size: 15px;
+}
+
+th{
+	text-align: left;
+	background-color: gray;
+	padding:3px;
+}
+
+td{
+	padding:7px 5px 3px 5px;
+	width: 25%
+}
+
+input,button{
+	font-size: 15px;
+	max-width: 65px;
+}
+
+button.submit{
+	font-weight: lighter;
+	font-family: sans-serif;
+	border-radius: 3px;
+    background: #b30000;
+    max-width: 300px;
+    width: 90px;
+    height: 40px;
+    float: right;
+}
+
+/*for creativity points*/
+input:focus {
+    color: white;
+    background-color: gray;
+}
+
+button.submit:hover {
+	background-color: black;
+}

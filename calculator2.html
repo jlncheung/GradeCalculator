@@ -1,0 +1,84 @@
+<!Calculator html by Julian Cheung>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Grade Calculator </title>
+	<link rel = "stylesheet" href = "calculator1.css" type = "text/css"/>
+	<script src=calculator1.js></script>
+</head>
+<body>
+	<h2> Grade Calculator</h2>
+	<div id="a">
+	<h4><b>Activities</b></h4>
+	<p> Give grades to the numeric activities:</p>
+	<form id="gc">
+	<!table to insert the values>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Short Name</th>
+			<th>Percentage</th>
+			<th>Grade</th>
+		</tr>
+		<tr>
+			<td>Activity 1</td>
+			<td>A1</td>
+			<td><input type="number" max="100"> </td>
+			<td><input type="number">/<input type="number"> </td>
+		</tr>
+		<tr>
+			<td>Activity 2</td>
+			<td>A2</td>
+			<td><input type="number" max="100"> </td>
+			<td><input type="number">/<input type="number"> </td>
+		</tr>
+		<tr>
+			<td>Activity 3</td>
+			<td>A3</td>
+			<td><input type="number" max="100"> </td>
+			<td><input type="number">/<input type="number"> </td>
+		</tr>
+		<tr>
+			<td>Activity 4</td>
+			<td>A4</td>
+			<td><input type="number" max="100"> </td>
+			<td><input type="number">/<input type="number"> </td>
+		</tr>
+	</table>
+	<p><b>Result</b></p>
+	<p id="result"></p>
+
+<!weighted and mean button>
+	<!--<input type="submit" class="submit" value="Mean" style="color:white;
+	margin-left:20px;">
+	<input type="submit" class="submit" value="Weighted" style="color:white;">-->
+
+	<button type="button" class="submit" style="color:white; margin-left:20px;" onclick="Mean()">Mean</button>
+	<button type="button" class="submit" style="color:white; margin-left:20px;" onclick="Weighted()">Weighted</button>
+
+	<!creativity points>
+	<button type="button" class="submit" 
+	style="color:white;" onclick="Reset()">Reset Form</button>
+	
+</div>
+<! layering the black box and the white box>
+<div style="background-color:white;
+width:84%;
+height:75%;
+position:fixed;
+bottom:25mm;
+z-index:-1;">
+</div>
+<div style="background-color:#333234; 
+	width: 84%;
+	height: 87%;
+	position: fixed;
+	bottom: 15mm;
+	z-index:-2;">
+</div>
+
+
+
+</form>
+</body>
+</html>
