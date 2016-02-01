@@ -1,1 +1,2 @@
 # GradeCalculator
+Activity calculator
